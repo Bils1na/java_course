@@ -6,6 +6,7 @@
 
 package lecture1;
 import java.util.Scanner;
+import java.io.*;
 /**
  * program
  */
@@ -13,7 +14,7 @@ import java.util.Scanner;
 
 public class program {
     static int t = 123;
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         // String s = "2";
 
         // short age = 10;
@@ -228,8 +229,145 @@ public class program {
         // int a = 132;
         // System.out.println(a);
 
-        lib.sayHi();
+        // lib.sayHi();
 
+        // int a = 1;
+        // int b = 2;
+        // int c;
+        // // if (a>b) {
+        // //     c = a;
+        // // } else {
+        // //     c = b;
+        // // }
+        // // System.out.println(c);
+
+        // // c = 0;
+        // // if (a > b) c = a;
+        // // if (b > a) c = b;
+
+        // // System.out.println(c);
+ 
+        // int min = a < b ? a : b;
+        // System.out.println(min);
+
+        // Scanner iScanner = new Scanner(System.in);
+        // System.out.print("int mounth: ");
+        // int value = iScanner.nextInt();
+        // int mounth = value;
+        // String text = "";
+        // switch (mounth) {
+        //     case 1:
+        //         text = "Autumn";
+        //         break;
+        //     case 2:
+        //         text = "Winter";
+        //         break;
+        //     default:
+        //         text = "mistake";
+        //         break;
+        // }
+        // System.out.println(text);
+        // iScanner.close();
+
+        // int a = 1;
+        // switch(a) {
+        //     case 1: System.out.println("a");
+        //         break;
+        //     case 2: 
+        //     case 3:
+        //     case 4:
+        //         System.out.println("b");
+        //         break;
+
+            // int value = 321;
+            // int count = 0;
+
+            // // while (value != 0) {
+            // //     value /= 10;
+            // //     count++;
+            // // }
+            // // System.out.println(count);
+
+            // do {
+            //     value /= 10;
+            //     count++;
+            // } while (value != 0);
+            // System.out.println(count);
+
+            // for (int i = 0; i < 10; i++) {
+            //     if (i % 2 != 0) {
+            //         continue;
+            //     }
+            //     System.out.println(i);
+                
+            // }
+            // for (int i = 0; i < 10; i++) {
+            //     break;
+            //     for (int j = 0; j < 5; j++) {
+            //         break;
+            //     }
+            //     break;
+            // }
+
+            // for (int i = 0; i < 5; i++) {
+            //     for (int j = 0; j < 10; j++) {
+            //         System.out.print("* ");
+            //     }
+            //     System.out.println();
+                
+            // }
+
+            // int arr[] = new int[10];
+            // for (int item : arr) {
+            //     System.out.printf("%d ", item);
+            // }
+            // System.out.println();
+
+            // int[] arr = new int[] {1, 2, 3, 4, 5};
+            // // for (int i = 0; i < arr.length; i++) {
+            // //     arr[i] = 10;
+            // // }
+
+
+            // for (int item : arr) {
+            //     item = 13;
+            //     System.out.print(item);
+
+            // }
+
+            // for (int item : arr) {
+            //     System.out.print(item);
+
+            // }
+        
+            // try (FileWriter fw = new FileWriter("file.txt", false)) {
+            //     fw.write("line 1");
+            //     fw.append("\n");
+            //     fw.append("2");
+            //     fw.append("\n");
+            //     fw.write("line 3");
+            //     fw.flush();
+            // } catch (IOException ex) {
+            //     System.out.println(ex.getMessage());
+            // }
+
+            // FileReader fr = new FileReader("file.txt");
+            // int c;
+            // while((c = fr.read()) != -1) {
+            //     char ch = (char) c;
+            //     if (ch == '\n') {
+            //         System.out.print(ch);
+            //     } else {
+            //         System.out.print(ch);
+            //     }
+            // }
+
+            // BufferedReader br = new BufferedReader(new FileReader("file.txt"));
+            // String str;
+            // while ((str = br.readLine()) != null) {
+            //     System.out.printf("== %s ==\n", str);
+            // }
+            // br.close();
     }
 
     // static void sayHi() {
