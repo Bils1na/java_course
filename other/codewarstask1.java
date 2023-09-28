@@ -6,8 +6,6 @@ public class codewarstask1 {
         System.out.println(answer);
     }
 
-
-
 public static String convert(boolean b) {
     String result = String.valueOf(b);
     return result;
