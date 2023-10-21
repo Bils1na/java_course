@@ -11,7 +11,8 @@ public class cwtask9 {
 
     public static int howOld(final String herOld) {
         for (int i = 0; i < herOld.length(); i++) {
-          return herOld.charAt(i) >= '0' && herOld.charAt(i) <= '9' ? Character.getNumericValue(herOld.charAt(i)) : -1;
+          return herOld.charAt(i) >= '0' && herOld.charAt(i) <= '9' ? 
+          Character.getNumericValue(herOld.charAt(i)) : -1;
         }
         return -1;
       }
