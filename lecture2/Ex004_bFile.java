@@ -1,4 +1,4 @@
-package Lesson_02;
+package lecture2;
 
 import java.io.*;
 import java.nio.ByteBuffer;
