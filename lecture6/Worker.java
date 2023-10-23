@@ -4,11 +4,11 @@ public class Worker {
     int id;
     int salary;
     String firstName;
-    String lastNname;
+    String lastName;
 
     @Override
     public String toString() {
-        return String.format("id:%d fn:%s ln:%d sal:%d", id, firstName, lastNname, salary);
+        return String.format("id:%d fn:%s ln:%d sal:%d", id, firstName, lastName, salary);
     }
     
 }
